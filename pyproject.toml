@@ -1,0 +1,15 @@
+[project]
+name = "customnode_image2spectrum"
+description = "ComfyUI Custom Node for converting images to frequency spectrum visualizations using FFT"
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["numpy", "pillow", "scipy", "torch"]
+
+[project.urls]
+Repository = "https://github.com/bemoregt/ComfyUI_CustomNode_Image2Spectrum"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI_CustomNode_Image2Spectrum"
+Icon = ""
